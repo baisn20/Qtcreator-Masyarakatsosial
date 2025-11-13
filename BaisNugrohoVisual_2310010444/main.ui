@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry"> <rect> <x>0</x> <y>0</y> <width>800</width> <height>600</height> </rect> </property>
+  <property name="windowTitle"> <string>Sistem Informasi Desa</string> </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="labelTitle">
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>DASHBOARD ADMINISTRASI</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry"> <rect> <x>0</x> <y>0</y> <width>800</width> <height>22</height> </rect> </property>
+   <widget class="QMenu" name="menuData">
+    <property name="title"> <string>Menu Data</string> </property>
+    <addaction name="actionProker"/>
+    <addaction name="actionRenbang"/>
+    <addaction name="actionBansos"/>
+    <addaction name="actionGaleri"/>
+   </widget>
+   <addaction name="menuData"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionProker"> <property name="text"> <string>Program Kerja</string> </property> </action>
+  <action name="actionRenbang"> <property name="text"> <string>Rencana Pembangunan</string> </property> </action>
+  <action name="actionBansos"> <property name="text"> <string>Bantuan Sosial</string> </property> </action>
+  <action name="actionGaleri"> <property name="text"> <string>Galeri</string> </property> </action>
+ </widget>
+ <resources/> <connections/>
+</ui>

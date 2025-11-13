@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormBansos</class>
+ <widget class="QWidget" name="FormBansos">
+  <property name="geometry"> <rect> <x>0</x> <y>0</y> <width>650</width> <height>500</height> </rect> </property>
+  <property name="windowTitle"> <string>Data Bansos</string> </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry"> <rect> <x>50</x> <y>20</y> <width>450</width> <height>180</height> </rect> </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0"><widget class="QLabel" name="l1"><property name="text"><string>ID Bansos</string></property></widget></item>
+    <item row="0" column="1"><widget class="QLineEdit" name="editID"/></item>
+    <item row="1" column="0"><widget class="QLabel" name="l2"><property name="text"><string>Uraian</string></property></widget></item>
+    <item row="1" column="1"><widget class="QLineEdit" name="editUraian"/></item>
+    <item row="2" column="0"><widget class="QLabel" name="l3"><property name="text"><string>Jumlah Bantuan</string></property></widget></item>
+    <item row="2" column="1"><widget class="QLineEdit" name="editJml"/></item>
+    <item row="3" column="0"><widget class="QLabel" name="l4"><property name="text"><string>Tahun</string></property></widget></item>
+    <item row="3" column="1"><widget class="QLineEdit" name="editTahun"/></item>
+    <item row="4" column="0"><widget class="QLabel" name="l5"><property name="text"><string>Disalurkan Ke</string></property></widget></item>
+    <item row="4" column="1"><widget class="QLineEdit" name="editSalur"/></item>
+    <item row="5" column="0"><widget class="QLabel" name="l6"><property name="text"><string>Kategori</string></property></widget></item>
+    <item row="5" column="1"><widget class="QLineEdit" name="editKategori"/></item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="btnSimpan"> <property name="geometry"> <rect> <x>60</x> <y>220</y> <width>90</width> <height>29</height> </rect> </property> <property name="text"> <string>Simpan</string> </property> </widget>
+  <widget class="QPushButton" name="btnHapus"> <property name="geometry"> <rect> <x>170</x> <y>220</y> <width>90</width> <height>29</height> </rect> </property> <property name="text"> <string>Hapus</string> </property> </widget>
+  <widget class="QPushButton" name="btnUbah"> <property name="geometry"> <rect> <x>280</x> <y>220</y> <width>90</width> <height>29</height> </rect> </property> <property name="text"> <string>Ubah</string> </property> </widget>
+  <widget class="QPushButton" name="btnBersih"> <property name="geometry"> <rect> <x>390</x> <y>220</y> <width>90</width> <height>29</height> </rect> </property> <property name="text"> <string>Bersih</string> </property> </widget>
+  <widget class="QTableWidget" name="tabelBansos">
+   <property name="geometry"> <rect> <x>50</x> <y>270</y> <width>550</width> <height>200</height> </rect> </property>
+   <column><property name="text"><string>ID</string></property></column>
+   <column><property name="text"><string>Uraian</string></property></column>
+   <column><property name="text"><string>Jumlah</string></property></column>
+   <column><property name="text"><string>Tahun</string></property></column>
+   <column><property name="text"><string>Penyalur</string></property></column>
+   <column><property name="text"><string>Kategori</string></property></column>
+  </widget>
+ </widget>
+ <resources/> <connections/>
+</ui>
