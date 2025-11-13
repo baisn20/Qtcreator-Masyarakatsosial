@@ -1,0 +1,1 @@
+# Qtcreator-Masyarakatsosial
